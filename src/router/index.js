@@ -13,7 +13,7 @@ const routes = [
   { path: '/review-booking', name: 'ReviewBooking', component: ReviewBooking },
   { path: '/payment', name: 'Payment', component: Payment },
   { path: '/booking-confirmation', name: 'BookingConfirmation', component: BookingConfirmation },
-  { path: '/', redirect: '/sign-up' } // Redirect to sign-up if the user is not logged in
+  { path: '/', redirect: '/sign-up' } 
 ];
 
 const router = createRouter({

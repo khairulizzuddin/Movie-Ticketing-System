@@ -26,16 +26,14 @@ export default {
   setup() {
     const movies = ref([]);
     
-    // Fetch movies from the JSON Server
     onMounted(async () => {
       const response = await axios.get('http://localhost:3000/movies');
       movies.value = response.data;
     });
 
     const selectMovie = (movie) => {
-      // Store the selected movie details and navigate to the seat map page
       localStorage.setItem('selectedMovie', JSON.stringify(movie));
-      window.location.href = '/seat-map'; // Redirect to the seat map page
+      window.location.href = '/seat-map'; 
     };
 
     return {
@@ -47,7 +45,6 @@ export default {
 </script>
 
 <style scoped>
-/* Basic styling for the movie cards */
 .v-card {
   margin-bottom: 20px;
 }
