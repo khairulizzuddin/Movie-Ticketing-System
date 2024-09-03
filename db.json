@@ -1,0 +1,95 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "duration": 148,
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "duration": 152,
+      "price": 14.99
+    },
+    {
+      "id": 3,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "duration": 142,
+      "price": 10.99
+    },
+    {
+      "id": 4,
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "duration": 136,
+      "price": 11.99
+    },
+    {
+      "id": 5,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "duration": 154,
+      "price": 13.99
+    },
+    {
+      "id": 6,
+      "title": "The Lion King",
+      "genre": "Animation",
+      "duration": 88,
+      "price": 9.99
+    },
+    {
+      "id": 7,
+      "title": "Avengers: Endgame",
+      "genre": "Action",
+      "duration": 181,
+      "price": 15.99
+    },
+    {
+      "id": 8,
+      "title": "Titanic",
+      "genre": "Romance",
+      "duration": 195,
+      "price": 12.99
+    },
+    {
+      "id": 9,
+      "title": "Joker",
+      "genre": "Thriller",
+      "duration": 122,
+      "price": 12.49
+    },
+    {
+      "id": 10,
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "duration": 169,
+      "price": 13.49
+    }
+  ],
+  "users": [
+    {
+      "id": "608e",
+      "email": "ndk",
+      "password": "njk",
+      "phoneNumber": "jnj"
+    },
+    {
+      "id": "abeb",
+      "email": "sdcdsc",
+      "password": "sdcsdd",
+      "phoneNumber": "cdsc"
+    },
+    {
+      "id": "e342",
+      "email": "",
+      "password": "",
+      "phoneNumber": ""
+    }
+  ],
+  "bookings": []
+}
