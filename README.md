@@ -1,4 +1,4 @@
-# mts
+# Movie Ticketing System
 
 ## Project setup
 ```
